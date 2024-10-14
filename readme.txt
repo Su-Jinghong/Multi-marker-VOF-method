@@ -1,0 +1,1 @@
+The code is for the case with 8 markers
