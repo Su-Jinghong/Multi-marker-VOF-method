@@ -1,0 +1,9 @@
+EXE_INC = \
+    -I../../twoPhaseModels/twoPhaseMixture/lnInclude \
+    -I../../twoPhaseModels/interfaceProperties/lnInclude \
+    -I$(LIB_SRC)/finiteVolume/lnInclude
+
+LIB_LIBS = \
+    -L../twoPhaseMixture -ltwoPhaseMixture \
+    -L../interfaceProperties -linterfaceProperties \
+    -lfiniteVolume
