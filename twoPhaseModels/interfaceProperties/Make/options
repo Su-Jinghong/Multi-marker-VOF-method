@@ -1,0 +1,8 @@
+EXE_INC = \
+    -I../../twoPhaseModels/twoPhaseMixture/lnInclude \
+    -I../../twoPhaseModels/twoPhaseProperties/alphaContactAngle/alphaContactAngle \
+    -I$(LIB_SRC)/finiteVolume/lnInclude
+
+LIB_LIBS = \
+    -L../twoPhaseMixture -ltwoPhaseMixture \
+    -lfiniteVolume
