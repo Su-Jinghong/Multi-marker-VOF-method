@@ -3,4 +3,4 @@ code to be compiled with OpenFOAM v8
 
 #Installation
 
-cd twoPhaseModels; ./Allwmake; cd ../; ./wamke;
+cd twoPhaseModels; ./Allwmake; cd ../; ./wmake;
